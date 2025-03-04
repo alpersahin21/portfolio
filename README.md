@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS.
+
+## Features
+
+- **Modern UI**: Clean, minimalistic design with dark mode support
+- **Responsive**: Fully responsive layout that works on all devices
+- **Fast Performance**: Built with Next.js for optimal performance
+- **SEO Friendly**: Proper metadata and static generation for better SEO
+- **Easy to Customize**: Simple structure to update with your own information
+
+## Pages
+
+- **Home**: Introduction and featured projects
+- **About**: Education, skills, and career goals
+- **Projects**: Showcase of all projects with detailed project pages
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Fonts**: Geist Sans and Geist Mono
+- **Deployment**: Ready to deploy on Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.17 or later
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Personal Information
 
-## Deploy on Vercel
+Update your personal information in the following files:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `src/components/sections/home/Hero.tsx`: Update your name and tagline
+- `src/components/sections/about/Education.tsx`: Update your education history
+- `src/components/sections/about/Skills.tsx`: Update your skills and technologies
+- `src/components/sections/about/CareerGoals.tsx`: Update your career goals
+- `src/components/layout/Footer.tsx`: Update your social media links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Projects
+
+Update your projects in the `src/data/projects.ts` file.
+
+### Styling
+
+The website uses Tailwind CSS for styling. You can customize the colors, fonts, and other design elements in the `tailwind.config.js` file.
+
+## Deployment
+
+The easiest way to deploy your portfolio website is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
