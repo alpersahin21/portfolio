@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-[#7D9D9C] text-white py-4 border-t border-[#6b8a89]">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="flex flex-wrap items-center justify-between">
+    <footer className="bg-[#7D9D9C] text-white border-t border-[#6b8a89]">
+      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center">
+        <div className="flex flex-wrap items-center justify-between w-full">
           <div className="flex items-center space-x-6">
             <p className="text-sm text-white/90">
               © {currentYear} <Link href="/" className="font-medium hover:text-white">Alper Sahin</Link>

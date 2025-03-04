@@ -7,8 +7,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-10 bg-[#7D9D9C] text-white backdrop-blur-md py-4 px-6 border-b border-[#6b8a89]">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+    <header className="fixed top-0 left-0 right-0 z-10 bg-[#7D9D9C] text-white backdrop-blur-md border-b border-[#6b8a89]">
+      <div className="max-w-6xl mx-auto px-6 h-16 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-white">
           alper.sh
         </Link>
