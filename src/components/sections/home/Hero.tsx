@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="py-20">
+    <section className="py-10 md:py-20">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -17,13 +17,13 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4">
             <Link 
               href="/projects" 
-              className="px-6 py-3 bg-[#7D9D9C] text-white rounded-md transition-all duration-300 hover:shadow-md hover:scale-105"
+              className="inline-block px-6 py-3 bg-[#7D9D9C] text-white rounded-md transform transition duration-300 ease-in-out hover:shadow-md hover:scale-105"
             >
               View My Work
             </Link>
             <Link 
               href="/about" 
-              className="px-6 py-3 border border-[#7D9D9C] text-[#7D9D9C] rounded-md transition-all duration-300 hover:shadow-md hover:scale-105 hover:border-[#576F72] hover:text-[#576F72]"
+              className="inline-block px-6 py-3 border border-[#7D9D9C] text-[#7D9D9C] rounded-md transform transition duration-300 ease-in-out hover:shadow-md hover:scale-105 hover:border-[#576F72] hover:text-[#576F72]"
             >
               About Me
             </Link>
