@@ -24,7 +24,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export default function ProjectPage({ params }: Props) {
   const project = getProjectBySlug(params.slug);
   
   if (!project) {
