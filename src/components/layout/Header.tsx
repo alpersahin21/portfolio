@@ -35,7 +35,7 @@ const Header = () => {
             </li>
             <li>
               <a 
-                href="/files/alper_sahin_cv.pdf" 
+                href="/files/Alper_Sahin_CV.pdf" 
                 download
                 className="px-4 py-2 bg-[#7D9D9C] hover:bg-[#576F72] text-white rounded-md transition-colors"
               >
