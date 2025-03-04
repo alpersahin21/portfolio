@@ -10,7 +10,7 @@ const CareerGoals = () => {
         My short-term goal is to continue developing my skills in full-stack development, while learning and building a foundation in state-of-the-art Machine Learning / Deep Learning concepts.
         </p>
         <p className="text-gray-700">
-          Long term, I aspire to combine my technical skills with my entrepreneurial interests to create innovative products that make a positive impact. I'm also interested in exploring the intersection of finance and technology, leveraging my background in Economics.
+          Long term, I aspire to combine my technical skills with my entrepreneurial interests to create innovative products that make a positive impact. I&apos;m also interested in exploring the intersection of finance and technology, leveraging my background in Economics.
         </p>
       </div>
     </section>

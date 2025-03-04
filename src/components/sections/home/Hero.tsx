@@ -9,10 +9,10 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Hi, I'm <span className="text-[#7D9D9C]">Alper Sahin</span>
+            Hi, I&apos;m <span className="text-[#7D9D9C]">Alper Sahin</span>
           </h1>
           <p className="text-gray-700 text-lg mb-8">
-          I’m a senior Computer Engineering and Economics student at Koç University, passionate about software development and entrepreneurship. I focus on solving real-world problems through technology, employing creative and analytical approaches to craft effective solutions.
+          I&apos;m a senior Computer Engineering and Economics student at Koç University, passionate about software development and entrepreneurship. I focus on solving real-world problems through technology, employing creative and analytical approaches to craft effective solutions.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
