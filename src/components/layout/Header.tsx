@@ -26,7 +26,7 @@ const Header = () => {
 
         {/* Desktop navigation */}
         <nav className="hidden md:block">
-          <ul className="flex space-x-8 items-center">
+          <ul className="flex space-x-12 items-center">
             <li>
               <Link 
                 href="/" 
@@ -67,7 +67,7 @@ const Header = () => {
       {/* Mobile navigation */}
       {isMenuOpen && (
         <nav className="md:hidden mt-4">
-          <ul className="flex flex-col space-y-4 pb-4">
+          <ul className="flex flex-col space-y-4 pb-4 px-6">
             <li>
               <Link 
                 href="/" 

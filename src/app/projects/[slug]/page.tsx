@@ -106,13 +106,13 @@ export default async function ProjectPage({ params }: Props) {
             rel="noopener noreferrer"
             className="px-4 py-2 bg-[#7D9D9C] hover:bg-[#576F72] text-white rounded-md transition-colors"
           >
-            GitHub Repository
+            {project.slug === 'melascan' ? 'Mobile Repository' : 'GitHub Repository'}
           </a>
           
           {project.slug === 'melascan' && (
             <>
               <a 
-                href="https://github.com/alpersahin38/melascan-backend" 
+                href="https://github.com/alpersahin21/melascan-backend" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-[#7D9D9C] hover:bg-[#576F72] text-white rounded-md transition-colors"
@@ -120,7 +120,7 @@ export default async function ProjectPage({ params }: Props) {
                 Backend Repository
               </a>
               <a 
-                href="https://github.com/alpersahin38/melascan-ai-model" 
+                href="https://github.com/alpersahin21/melascan-ai-model" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-[#7D9D9C] hover:bg-[#576F72] text-white rounded-md transition-colors"

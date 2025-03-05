@@ -31,9 +31,9 @@ const Experience = () => {
       position: 'Software Engineering Intern',
       company: 'Garanti BBVA Teknoloji',
       location: 'Istanbul',
-      period: '07/2023 – 08/2024',
+      period: '07/2023 – 08/2023',
       description: [
-        'Developed RESTful APIs (Java, Spring Boot, Spring Framework, OracleSQL, gRPC)',
+        'Developed RESTful APIs (Java, Spring Framework, OracleSQL, gRPC)',
         'Contributed to a Batch service by implementing data-organization algorithms and unit tests (JUnit/Mockito)'
       ]
     }

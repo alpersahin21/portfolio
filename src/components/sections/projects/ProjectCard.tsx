@@ -43,7 +43,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             rel="noopener noreferrer"
             className="text-[#7D9D9C] hover:underline"
           >
-            GitHub
+            {project.slug === 'melascan' ? 'Mobile Repository' : 'GitHub Repository'}
           </a>
           {project.demo && (
             <a 

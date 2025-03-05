@@ -3,27 +3,32 @@ const Skills = () => {
     {
       id: 'languages',
       title: 'Programming Languages',
-      skills: ['Python', 'Java', 'C', 'JavaScript', 'TypeScript', 'HTML/CSS']
+      skills: ['Python', 'Java', 'C', 'JavaScript', 'TypeScript', 'Go (Beginner)']
     },
     {
       id: 'frontend',
       title: 'Frontend',
-      skills: ['React', 'Next.js', 'HTML', 'CSS', 'JavaScript']
+      skills: ['React', 'Next.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'Material UI']
     },
     {
       id: 'backend',
       title: 'Backend',
-      skills: ['Node.js', 'Spring Framework', 'Spring Boot', 'JPA/Hibernate', 'Microservices Architecture', 'RESTful APIs', 'Kafka']
+      skills: ['Spring Framework', 'JPA/Hibernate', 'Microservices Architecture', 'RESTful APIs', 'Kafka', 'Node.js', 'Express.js', 'Flask']
     },
     {
       id: 'database',
       title: 'Database',
-      skills: ['MySQL', 'PostgreSQL', 'Oracle SQL Developer', 'MongoDB', 'RDBMS']
+      skills: ['MySQL', 'PostgreSQL','MongoDB', 'RDBMS']
     },
     {
       id: 'devops',
       title: 'DevOps & Cloud',
       skills: ['Docker', 'Kubernetes', 'AWS S3', 'AWS ECS', 'Rancher', 'Grafana', 'Graylog']
+    },
+    {
+      id: 'ml',
+      title: 'Machine Learning',
+      skills: ['Scikit-learn', 'PyTorch', 'OpenCV', 'Pandas', 'Numpy', 'Matplotlib']
     },
     {
       id: 'testing',
@@ -38,7 +43,7 @@ const Skills = () => {
     {
       id: 'interests',
       title: 'Interests',
-      skills: ['AI', 'Entrepreneurship', 'Finance', 'Scuba Diving', 'Machine Learning']
+      skills: ['AI', 'Entrepreneurship', 'Finance', 'Scuba Diving', 'Machine Learning', 'Deep Learning']
     }
   ];
 

@@ -4,14 +4,14 @@ const Leadership = () => {
       id: 'lead-1',
       position: 'Executive Board Member of Social Affairs Committee',
       organization: 'Marketing Club of Koç University',
-      period: 'Current',
+      period: '05/2024 - Present',
       description: 'Spearhead the organization of social activities for 800+ club members, overseeing event planning, logistics and communication to create engaging and enjoyable experiences for all participants.'
     },
     {
       id: 'lead-2',
       position: 'Member of KWORKS Experience Program',
       organization: 'Koç University Entrepreneurship Research Center',
-      period: 'Current',
+      period: '12/2023 – 02/2024',
       description: 'Immersed in the KWORKS ecosystem, gaining hands-on experience in startup acceleration programs, collaborating directly with KWORKS experts.'
     },
     {

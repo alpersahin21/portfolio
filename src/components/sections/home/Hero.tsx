@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="py-10 md:py-20">
+    <section className="py-6 md:py-16">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
