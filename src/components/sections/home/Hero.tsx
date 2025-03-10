@@ -11,8 +11,11 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Hi, I&apos;m <span className="text-[#7D9D9C]">Alper Sahin</span>
           </h1>
+          <p className="text-gray-700 text-lg mb-4">
+            I&apos;m a senior Computer Engineering and Economics student at Koç University, passionate about software development and entrepreneurship. I focus on solving real-world problems through technology, employing creative and analytical approaches to craft effective solutions.
+          </p>
           <p className="text-gray-700 text-lg mb-8">
-          I&apos;m a senior Computer Engineering and Economics student at Koç University, passionate about software development and entrepreneurship. I focus on solving real-world problems through technology, employing creative and analytical approaches to craft effective solutions.
+            Currently, I&apos;m working as a Software Engineer Intern at <a href="https://tfashion.ai/" target="_blank" rel="noopener noreferrer" className="text-[#7D9D9C] hover:underline">T-Fashion</a>.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 

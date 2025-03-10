@@ -3,6 +3,14 @@ const Experience = () => {
     {
       id: 'exp-1',
       position: 'Software Engineering Intern',
+      company: 'T-Fashion',
+      location: 'Istanbul',
+      period: '03/2025 – Present',
+      description: []
+    },
+    {
+      id: 'exp-2',
+      position: 'Software Engineering Intern',
       company: 'Albert Health',
       location: 'Istanbul',
       period: '08/2024 – 01/2025',
@@ -16,7 +24,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 'exp-2',
+      id: 'exp-3',
       position: 'Software Engineering Intern',
       company: 'Softtech',
       location: 'Istanbul',
@@ -27,7 +35,7 @@ const Experience = () => {
       ]
     },
     {
-      id: 'exp-3',
+      id: 'exp-4',
       position: 'Software Engineering Intern',
       company: 'Garanti BBVA Teknoloji',
       location: 'Istanbul',
